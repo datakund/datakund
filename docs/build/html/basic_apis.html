@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic APIS &mdash; datakund 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/tabs.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Contact Us" href="contactus.html" />
+    <link rel="prev" title="Other APIS" href="other_apis.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> datakund
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction to DataKund</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html#how-does-datakund-works">How does DataKund works?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html#why-datakund">Why DataKund?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation/Usage:</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api_tutorials.html">API Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="video_tutorials.html">Video Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="create_object.html">Installing Packages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="create_object.html#starting-session">Starting Session</a></li>
+<li class="toctree-l1"><a class="reference internal" href="run_api.html">Run Api</a></li>
+<li class="toctree-l1"><a class="reference internal" href="make_bots_public.html">Make your bots public</a></li>
+<li class="toctree-l1"><a class="reference internal" href="youtube_apis.html">Youtube APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amazon_apis.html">Amazon APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linkedin_apis.html">Linkedin APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twitter_apis.html">Twitter APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="google_apis.html">Google APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="other_apis.html">Other APIS</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Basic APIS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#open">Open</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#get-page-title">Get Page Title</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#get-page-source">Get Page Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#get-current-url">Get Current Url</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#reload">Reload</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#keypress">Keypress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scroll">Scroll</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#end">End</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quit">Quit</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contactus.html">Contact Us</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">datakund</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Basic APIS</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/basic_apis.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="basic-apis">
+<h1>Basic APIS<a class="headerlink" href="#basic-apis" title="Permalink to this headline"></a></h1>
+<p>You can use basic apis which selenium provides with this tool like opening a url, get pagesource, get current url etc. These are the functions:-</p>
+<div class="section" id="open">
+<h2>Open<a class="headerlink" href="#open" title="Permalink to this headline"></a></h2>
+<p>It will open the url provided in the parameters.</p>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-0-UHl0aG9u" aria-selected="true" class="sphinx-tabs-tab code-tab group-tab" id="tab-0-UHl0aG9u" name="UHl0aG9u" role="tab" tabindex="0">Python</button><button aria-controls="panel-0-Tm9kZUpT" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-0-Tm9kZUpT" name="Tm9kZUpT" role="tab" tabindex="-1">NodeJS</button><button aria-controls="panel-0-Q3VybA==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-0-Q3VybA==" name="Q3VybA==" role="tab" tabindex="-1">Curl</button></div><div aria-labelledby="tab-0-UHl0aG9u" class="sphinx-tabs-panel code-tab group-tab" id="panel-0-UHl0aG9u" name="UHl0aG9u" role="tabpanel" tabindex="0"><div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">dk_object</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-0-Tm9kZUpT" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-0-Tm9kZUpT" name="Tm9kZUpT" role="tabpanel" tabindex="0"><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">datakund</span><span class="p">.</span><span class="nx">open</span><span class="p">(</span><span class="nx">url</span><span class="p">)</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-0-Q3VybA==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-0-Q3VybA==" name="Q3VybA==" role="tabpanel" tabindex="0"><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST http://127.0.0.1:5000/open -H <span class="s1">&#39;cache-control: no-cache&#39;</span> -H <span class="s1">&#39;content-type: application/json&#39;</span> -d <span class="s1">&#39;{&quot;url&quot;:&quot;https://www.google.com&quot;}&#39;</span>
+</pre></div>
+</div>
+</div></div>
+</div>
+<div class="section" id="get-page-title">
+<h2>Get Page Title<a class="headerlink" href="#get-page-title" title="Permalink to this headline"></a></h2>
+<p>It returns the title of page opened.</p>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-1-UHl0aG9u" aria-selected="true" class="sphinx-tabs-tab code-tab group-tab" id="tab-1-UHl0aG9u" name="UHl0aG9u" role="tab" tabindex="0">Python</button><button aria-controls="panel-1-Tm9kZUpT" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-1-Tm9kZUpT" name="Tm9kZUpT" role="tab" tabindex="-1">NodeJS</button><button aria-controls="panel-1-Q3VybA==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-1-Q3VybA==" name="Q3VybA==" role="tab" tabindex="-1">Curl</button><button aria-controls="panel-1-UmVzcG9uc2UgRGF0YQ==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-1-UmVzcG9uc2UgRGF0YQ==" name="UmVzcG9uc2UgRGF0YQ==" role="tab" tabindex="-1">Response Data</button></div><div aria-labelledby="tab-1-UHl0aG9u" class="sphinx-tabs-panel code-tab group-tab" id="panel-1-UHl0aG9u" name="UHl0aG9u" role="tabpanel" tabindex="0"><div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">response</span><span class="o">=</span><span class="n">dk_object</span><span class="o">.</span><span class="n">get_page_title</span><span class="p">()</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-1-Tm9kZUpT" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-1-Tm9kZUpT" name="Tm9kZUpT" role="tabpanel" tabindex="0"><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">response</span><span class="o">=</span><span class="nx">datakund</span><span class="p">.</span><span class="nx">get_page_title</span><span class="p">()</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-1-Q3VybA==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-1-Q3VybA==" name="Q3VybA==" role="tabpanel" tabindex="0"><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST http://127.0.0.1:5000/get_page_title -H <span class="s1">&#39;cache-control: no-cache&#39;</span> -H <span class="s1">&#39;content-type: application/json&#39;</span> -d <span class="s1">&#39;{}&#39;</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-1-UmVzcG9uc2UgRGF0YQ==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-1-UmVzcG9uc2UgRGF0YQ==" name="UmVzcG9uc2UgRGF0YQ==" role="tabpanel" tabindex="0"><div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+        <span class="nt">&quot;pagetitle&quot;</span><span class="p">:</span><span class="s2">&quot;amazon&quot;</span>
+        <span class="p">}</span>
+</pre></div>
+</div>
+</div></div>
+</div>
+<div class="section" id="get-page-source">
+<h2>Get Page Source<a class="headerlink" href="#get-page-source" title="Permalink to this headline"></a></h2>
+<p>It returns the pagesource of page opened.</p>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-2-UHl0aG9u" aria-selected="true" class="sphinx-tabs-tab code-tab group-tab" id="tab-2-UHl0aG9u" name="UHl0aG9u" role="tab" tabindex="0">Python</button><button aria-controls="panel-2-Tm9kZUpT" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-2-Tm9kZUpT" name="Tm9kZUpT" role="tab" tabindex="-1">NodeJS</button><button aria-controls="panel-2-Q3VybA==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-2-Q3VybA==" name="Q3VybA==" role="tab" tabindex="-1">Curl</button><button aria-controls="panel-2-UmVzcG9uc2UgRGF0YQ==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-2-UmVzcG9uc2UgRGF0YQ==" name="UmVzcG9uc2UgRGF0YQ==" role="tab" tabindex="-1">Response Data</button></div><div aria-labelledby="tab-2-UHl0aG9u" class="sphinx-tabs-panel code-tab group-tab" id="panel-2-UHl0aG9u" name="UHl0aG9u" role="tabpanel" tabindex="0"><div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">response</span><span class="o">=</span><span class="n">dk_object</span><span class="o">.</span><span class="n">get_page_source</span><span class="p">()</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-2-Tm9kZUpT" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-2-Tm9kZUpT" name="Tm9kZUpT" role="tabpanel" tabindex="0"><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">response</span><span class="o">=</span><span class="nx">datakund</span><span class="p">.</span><span class="nx">get_page_source</span><span class="p">()</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-2-Q3VybA==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-2-Q3VybA==" name="Q3VybA==" role="tabpanel" tabindex="0"><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST http://127.0.0.1:5000/get_page_source -H <span class="s1">&#39;cache-control: no-cache&#39;</span> -H <span class="s1">&#39;content-type: application/json&#39;</span> -d <span class="s1">&#39;{}&#39;</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-2-UmVzcG9uc2UgRGF0YQ==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-2-UmVzcG9uc2UgRGF0YQ==" name="UmVzcG9uc2UgRGF0YQ==" role="tabpanel" tabindex="0"><div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+        <span class="nt">&quot;pagesource&quot;</span><span class="p">:</span><span class="s2">&quot;&lt;html&gt;&lt;body&gt;.....&quot;</span>
+        <span class="p">}</span>
+</pre></div>
+</div>
+</div></div>
+</div>
+<div class="section" id="get-current-url">
+<h2>Get Current Url<a class="headerlink" href="#get-current-url" title="Permalink to this headline"></a></h2>
+<p>It returns the url of page opened.</p>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-3-UHl0aG9u" aria-selected="true" class="sphinx-tabs-tab code-tab group-tab" id="tab-3-UHl0aG9u" name="UHl0aG9u" role="tab" tabindex="0">Python</button><button aria-controls="panel-3-Tm9kZUpT" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-3-Tm9kZUpT" name="Tm9kZUpT" role="tab" tabindex="-1">NodeJS</button><button aria-controls="panel-3-Q3VybA==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-3-Q3VybA==" name="Q3VybA==" role="tab" tabindex="-1">Curl</button><button aria-controls="panel-3-UmVzcG9uc2UgRGF0YQ==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-3-UmVzcG9uc2UgRGF0YQ==" name="UmVzcG9uc2UgRGF0YQ==" role="tab" tabindex="-1">Response Data</button></div><div aria-labelledby="tab-3-UHl0aG9u" class="sphinx-tabs-panel code-tab group-tab" id="panel-3-UHl0aG9u" name="UHl0aG9u" role="tabpanel" tabindex="0"><div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">response</span><span class="o">=</span><span class="n">dk_object</span><span class="o">.</span><span class="n">get_current_url</span><span class="p">()</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-3-Tm9kZUpT" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-3-Tm9kZUpT" name="Tm9kZUpT" role="tabpanel" tabindex="0"><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">response</span><span class="o">=</span><span class="nx">datakund</span><span class="p">.</span><span class="nx">get_current_url</span><span class="p">()</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-3-Q3VybA==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-3-Q3VybA==" name="Q3VybA==" role="tabpanel" tabindex="0"><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST http://127.0.0.1:5000/get_current_url -H <span class="s1">&#39;cache-control: no-cache&#39;</span> -H <span class="s1">&#39;content-type: application/json&#39;</span> -d <span class="s1">&#39;{}&#39;</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-3-UmVzcG9uc2UgRGF0YQ==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-3-UmVzcG9uc2UgRGF0YQ==" name="UmVzcG9uc2UgRGF0YQ==" role="tabpanel" tabindex="0"><div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+        <span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="s2">&quot;https://www.amazon.com&quot;</span>
+        <span class="p">}</span>
+</pre></div>
+</div>
+</div></div>
+</div>
+<div class="section" id="reload">
+<h2>Reload<a class="headerlink" href="#reload" title="Permalink to this headline"></a></h2>
+<p>It reloads the page opened.</p>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-4-UHl0aG9u" aria-selected="true" class="sphinx-tabs-tab code-tab group-tab" id="tab-4-UHl0aG9u" name="UHl0aG9u" role="tab" tabindex="0">Python</button><button aria-controls="panel-4-Tm9kZUpT" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-4-Tm9kZUpT" name="Tm9kZUpT" role="tab" tabindex="-1">NodeJS</button><button aria-controls="panel-4-Q3VybA==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-4-Q3VybA==" name="Q3VybA==" role="tab" tabindex="-1">Curl</button></div><div aria-labelledby="tab-4-UHl0aG9u" class="sphinx-tabs-panel code-tab group-tab" id="panel-4-UHl0aG9u" name="UHl0aG9u" role="tabpanel" tabindex="0"><div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">dk_object</span><span class="o">.</span><span class="n">reload</span><span class="p">()</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-4-Tm9kZUpT" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-4-Tm9kZUpT" name="Tm9kZUpT" role="tabpanel" tabindex="0"><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">datakund</span><span class="p">.</span><span class="nx">reload</span><span class="p">()</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-4-Q3VybA==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-4-Q3VybA==" name="Q3VybA==" role="tabpanel" tabindex="0"><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST http://127.0.0.1:5000/reload -H <span class="s1">&#39;cache-control: no-cache&#39;</span> -H <span class="s1">&#39;content-type: application/json&#39;</span> -d <span class="s1">&#39;{}&#39;</span>
+</pre></div>
+</div>
+</div></div>
+</div>
+<div class="section" id="keypress">
+<h2>Keypress<a class="headerlink" href="#keypress" title="Permalink to this headline"></a></h2>
+<p>It perform the keypress passed.</p>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-5-UHl0aG9u" aria-selected="true" class="sphinx-tabs-tab code-tab group-tab" id="tab-5-UHl0aG9u" name="UHl0aG9u" role="tab" tabindex="0">Python</button><button aria-controls="panel-5-Tm9kZUpT" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-5-Tm9kZUpT" name="Tm9kZUpT" role="tab" tabindex="-1">NodeJS</button><button aria-controls="panel-5-Q3VybA==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-5-Q3VybA==" name="Q3VybA==" role="tab" tabindex="-1">Curl</button></div><div aria-labelledby="tab-5-UHl0aG9u" class="sphinx-tabs-panel code-tab group-tab" id="panel-5-UHl0aG9u" name="UHl0aG9u" role="tabpanel" tabindex="0"><div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">dk_object</span><span class="o">.</span><span class="n">keypress</span><span class="p">(</span><span class="s2">&quot;shoes&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-5-Tm9kZUpT" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-5-Tm9kZUpT" name="Tm9kZUpT" role="tabpanel" tabindex="0"><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">datakund</span><span class="p">.</span><span class="nx">keypress</span><span class="p">(</span><span class="s2">&quot;shoes&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-5-Q3VybA==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-5-Q3VybA==" name="Q3VybA==" role="tabpanel" tabindex="0"><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST http://127.0.0.1:5000/keypress -H <span class="s1">&#39;cache-control: no-cache&#39;</span> -H <span class="s1">&#39;content-type: application/json&#39;</span> -d <span class="s1">&#39;{&quot;key&quot;:&quot;shoes&quot;}&#39;</span>
+</pre></div>
+</div>
+</div></div>
+</div>
+<div class="section" id="scroll">
+<h2>Scroll<a class="headerlink" href="#scroll" title="Permalink to this headline"></a></h2>
+<p>It scrolls to the end of page.</p>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-6-UHl0aG9u" aria-selected="true" class="sphinx-tabs-tab code-tab group-tab" id="tab-6-UHl0aG9u" name="UHl0aG9u" role="tab" tabindex="0">Python</button><button aria-controls="panel-6-Tm9kZUpT" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-6-Tm9kZUpT" name="Tm9kZUpT" role="tab" tabindex="-1">NodeJS</button><button aria-controls="panel-6-Q3VybA==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-6-Q3VybA==" name="Q3VybA==" role="tab" tabindex="-1">Curl</button></div><div aria-labelledby="tab-6-UHl0aG9u" class="sphinx-tabs-panel code-tab group-tab" id="panel-6-UHl0aG9u" name="UHl0aG9u" role="tabpanel" tabindex="0"><div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">dk_object</span><span class="o">.</span><span class="n">scroll</span><span class="p">()</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-6-Tm9kZUpT" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-6-Tm9kZUpT" name="Tm9kZUpT" role="tabpanel" tabindex="0"><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">datakund</span><span class="p">.</span><span class="nx">scroll</span><span class="p">()</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-6-Q3VybA==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-6-Q3VybA==" name="Q3VybA==" role="tabpanel" tabindex="0"><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST http://127.0.0.1:5000/scroll -H <span class="s1">&#39;cache-control: no-cache&#39;</span> -H <span class="s1">&#39;content-type: application/json&#39;</span> -d <span class="s1">&#39;{}&#39;</span>
+</pre></div>
+</div>
+</div></div>
+</div>
+<div class="section" id="end">
+<h2>End<a class="headerlink" href="#end" title="Permalink to this headline"></a></h2>
+<p>It ends the session and close the automated chromedriver.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You will need to create dk object again after <code class="docutils literal notranslate"><span class="pre">end()</span></code>.</p>
+</div>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-7-UHl0aG9u" aria-selected="true" class="sphinx-tabs-tab code-tab group-tab" id="tab-7-UHl0aG9u" name="UHl0aG9u" role="tab" tabindex="0">Python</button><button aria-controls="panel-7-Tm9kZUpT" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-7-Tm9kZUpT" name="Tm9kZUpT" role="tab" tabindex="-1">NodeJS</button><button aria-controls="panel-7-Q3VybA==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-7-Q3VybA==" name="Q3VybA==" role="tab" tabindex="-1">Curl</button></div><div aria-labelledby="tab-7-UHl0aG9u" class="sphinx-tabs-panel code-tab group-tab" id="panel-7-UHl0aG9u" name="UHl0aG9u" role="tabpanel" tabindex="0"><div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">dk_object</span><span class="o">.</span><span class="n">end</span><span class="p">()</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-7-Tm9kZUpT" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-7-Tm9kZUpT" name="Tm9kZUpT" role="tabpanel" tabindex="0"><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">datakund</span><span class="p">.</span><span class="nx">end</span><span class="p">()</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-7-Q3VybA==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-7-Q3VybA==" name="Q3VybA==" role="tabpanel" tabindex="0"><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST http://127.0.0.1:5000/end -H <span class="s1">&#39;cache-control: no-cache&#39;</span> -H <span class="s1">&#39;content-type: application/json&#39;</span> -d <span class="s1">&#39;{}&#39;</span>
+</pre></div>
+</div>
+</div></div>
+</div>
+<div class="section" id="quit">
+<h2>Quit<a class="headerlink" href="#quit" title="Permalink to this headline"></a></h2>
+<p>It quits the datakund application runing in background.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You will need to import datakund library again to start datakund application.</p>
+</div>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-8-UHl0aG9u" aria-selected="true" class="sphinx-tabs-tab code-tab group-tab" id="tab-8-UHl0aG9u" name="UHl0aG9u" role="tab" tabindex="0">Python</button><button aria-controls="panel-8-Tm9kZUpT" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-8-Tm9kZUpT" name="Tm9kZUpT" role="tab" tabindex="-1">NodeJS</button><button aria-controls="panel-8-Q3VybA==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-8-Q3VybA==" name="Q3VybA==" role="tab" tabindex="-1">Curl</button></div><div aria-labelledby="tab-8-UHl0aG9u" class="sphinx-tabs-panel code-tab group-tab" id="panel-8-UHl0aG9u" name="UHl0aG9u" role="tabpanel" tabindex="0"><div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">dk_object</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-8-Tm9kZUpT" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-8-Tm9kZUpT" name="Tm9kZUpT" role="tabpanel" tabindex="0"><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">datakund</span><span class="p">.</span><span class="nx">quit</span><span class="p">()</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-8-Q3VybA==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-8-Q3VybA==" name="Q3VybA==" role="tabpanel" tabindex="0"><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST http://127.0.0.1:5000/quit -H <span class="s1">&#39;cache-control: no-cache&#39;</span> -H <span class="s1">&#39;content-type: application/json&#39;</span> -d <span class="s1">&#39;{}&#39;</span>
+</pre></div>
+</div>
+</div></div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="other_apis.html" class="btn btn-neutral float-left" title="Other APIS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="contactus.html" class="btn btn-neutral float-right" title="Contact Us" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, DataKund.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

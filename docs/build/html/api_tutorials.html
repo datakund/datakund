@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>API Tutorials &mdash; datakund 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Video Tutorials" href="video_tutorials.html" />
+    <link rel="prev" title="Installation/Usage:" href="installation.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> datakund
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction to DataKund</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html#how-does-datakund-works">How does DataKund works?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html#why-datakund">Why DataKund?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation/Usage:</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API Tutorials</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#basic-introduction">Basic Introduction</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#dk-extension">DK Extension:-</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#automated-browser">Automated Browser:-</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#record">Record</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#run">Run</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#code">Code</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-open-url-using-datakund">How to open url using DataKund?</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#open-static-url">Open Static Url</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#open-dynamic-url">Open Dynamic Url</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-perform-click-action-using-datakund">How to perform click action using DataKund?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-scrape-text-using-datakund">How to scrape text using DataKund?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="video_tutorials.html">Video Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="create_object.html">Installing Packages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="create_object.html#starting-session">Starting Session</a></li>
+<li class="toctree-l1"><a class="reference internal" href="run_api.html">Run Api</a></li>
+<li class="toctree-l1"><a class="reference internal" href="make_bots_public.html">Make your bots public</a></li>
+<li class="toctree-l1"><a class="reference internal" href="youtube_apis.html">Youtube APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amazon_apis.html">Amazon APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linkedin_apis.html">Linkedin APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twitter_apis.html">Twitter APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="google_apis.html">Google APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="other_apis.html">Other APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basic_apis.html">Basic APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contactus.html">Contact Us</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">datakund</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>API Tutorials</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/api_tutorials.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="api-tutorials">
+<h1>API Tutorials<a class="headerlink" href="#api-tutorials" title="Permalink to this headline"></a></h1>
+<div class="section" id="basic-introduction">
+<h2>Basic Introduction<a class="headerlink" href="#basic-introduction" title="Permalink to this headline"></a></h2>
+<p>There are two parts of DataKund:-</p>
+<div class="section" id="dk-extension">
+<h3>DK Extension:-<a class="headerlink" href="#dk-extension" title="Permalink to this headline"></a></h3>
+<p>DK Extension is the user interface through which user can iteract with tool.
+These are things which you can do through Extension:-</p>
+<ol class="arabic simple">
+<li><p>Can create,run, customize apis</p></li>
+<li><p>It records your actions</p></li>
+<li><p>You can access code to apis</p></li>
+<li><p>Can publish these apis</p></li>
+<li><p>And many more, discussed in detail in further sections.</p></li>
+</ol>
+</div>
+<div class="section" id="automated-browser">
+<h3>Automated Browser:-<a class="headerlink" href="#automated-browser" title="Permalink to this headline"></a></h3>
+<p>This is the main part of your apis, where your apis will run.
+For Example, if you made an api of login to instagram, then that api will do login in this browser.</p>
+</div>
+<div class="section" id="record">
+<h3>Record<a class="headerlink" href="#record" title="Permalink to this headline"></a></h3>
+<p>Record basically refers to the actions recorded in api. These actions will be done when bot is run. When recording, the actions are shown in charts of Extension window as shown below</p>
+<a class="reference internal image-reference" href="_images/charts.png"><img alt="Alternative text" src="_images/charts.png" style="width: 400px;" /></a>
+</div>
+<div class="section" id="run">
+<h3>Run<a class="headerlink" href="#run" title="Permalink to this headline"></a></h3>
+<p>You can now run your api by filling inputs accordingly.</p>
+<a class="reference internal image-reference" href="_images/run.png"><img alt="Alternative text" src="_images/run.png" style="width: 400px;" /></a>
+</div>
+<div class="section" id="code">
+<h3>Code<a class="headerlink" href="#code" title="Permalink to this headline"></a></h3>
+<p>DataKund provides packages for python and nodejs. The code for these apis can be found inside Code tab.
+You can copy the code and run directly in your framework.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you want to call your apis in your code, then consider api names which do not contain space, special character etc.</p>
+</div>
+</div>
+</div>
+<div class="section" id="how-to-open-url-using-datakund">
+<h2>How to open url using DataKund?<a class="headerlink" href="#how-to-open-url-using-datakund" title="Permalink to this headline"></a></h2>
+<div class="section" id="open-static-url">
+<h3>Open Static Url<a class="headerlink" href="#open-static-url" title="Permalink to this headline"></a></h3>
+<p>To open a static URL, training is very simple. Just click on the Train button and open the URL which needs to be opened. Then go back and Run api.</p>
+<a class="reference internal image-reference" href="_images/static_url.png"><img alt="Alternative text" src="_images/static_url.png" style="width: 400px;" /></a>
+</div>
+<div class="section" id="open-dynamic-url">
+<h3>Open Dynamic Url<a class="headerlink" href="#open-dynamic-url" title="Permalink to this headline"></a></h3>
+<p>To open a dynamic URL , follow these steps:-</p>
+<ol class="arabic simple">
+<li><p>Create a new bot. Click on Record and then click on Variables.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/dynamic_url.png"><img alt="Alternative text" src="_images/dynamic_url.png" style="width: 400px;" /></a>
+<ol class="arabic simple" start="2">
+<li><p>Click on Add Input Button and add new variable “link” as shown below</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/dynamic_url2.png"><img alt="Alternative text" src="_images/dynamic_url2.png" style="width: 400px;" /></a>
+<ol class="arabic simple" start="3">
+<li><p>Now go back to record and then Right click&gt;DataKund&gt;Inputs&gt;Variables&gt;link&gt;Open Link.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/dynamic_url3.png"><img alt="Alternative text" src="_images/dynamic_url3.png" style="width: 400px;" /></a>
+<ol class="arabic simple" start="4">
+<li><p>Now go back and run bot.</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="how-to-perform-click-action-using-datakund">
+<h2>How to perform click action using DataKund?<a class="headerlink" href="#how-to-perform-click-action-using-datakund" title="Permalink to this headline"></a></h2>
+<ol class="arabic simple">
+<li><p>Open url <a class="reference external" href="https://www.amazon.com/">https://www.amazon.com/</a> and then we can see the charts by clicking on extension icon as shown below. As we opened a url so url event is shown in chart</p></li>
+<li><p>Now Click on Kindle eBooks. We can see click event added in charts.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/click.png"><img alt="Alternative text" src="_images/click.png" style="width: 400px;" /></a>
+<ol class="arabic simple" start="3">
+<li><p>Go back and Run api.</p></li>
+</ol>
+</div>
+<div class="section" id="how-to-scrape-text-using-datakund">
+<h2>How to scrape text using DataKund?<a class="headerlink" href="#how-to-scrape-text-using-datakund" title="Permalink to this headline"></a></h2>
+<ol class="arabic simple">
+<li><p>Make a new api and click on Record.</p></li>
+<li><p>Open <a class="reference external" href="https://pypistats.org/packages/bot-studio">https://pypistats.org/packages/bot-studio</a> in browser.</p></li>
+<li><p>Now click on inputs/columns as shown below</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/scrape_text1.png"><img alt="Alternative text" src="_images/scrape_text1.png" style="width: 400px;" /></a>
+<ol class="arabic simple" start="4">
+<li><p>Add a column named <code class="docutils literal notranslate"><span class="pre">count</span></code> and click on save.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/scrape_text2.png"><img alt="Alternative text" src="_images/scrape_text2.png" style="width: 400px;" /></a>
+<ol class="arabic simple" start="5">
+<li><p>Now Right Click on count “142”&gt; DataKund&gt;Scrape&gt;Text&gt;count</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/scrape_text3.png"><img alt="Alternative text" src="_images/scrape_text3.png" style="width: 400px;" /></a>
+<ol class="arabic simple" start="6">
+<li><p>Go back and Run api.</p></li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="installation.html" class="btn btn-neutral float-left" title="Installation/Usage:" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="video_tutorials.html" class="btn btn-neutral float-right" title="Video Tutorials" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, DataKund.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

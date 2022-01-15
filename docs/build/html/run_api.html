@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Run Api &mdash; datakund 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/tabs.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Make your bots public" href="make_bots_public.html" />
+    <link rel="prev" title="Installing Packages" href="create_object.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> datakund
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction to DataKund</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html#how-does-datakund-works">How does DataKund works?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html#why-datakund">Why DataKund?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation/Usage:</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api_tutorials.html">API Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="video_tutorials.html">Video Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="create_object.html">Installing Packages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="create_object.html#starting-session">Starting Session</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Run Api</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#api">Api</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#response-data">Response Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#get-code-from-datakund">Get Code from DataKund</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="make_bots_public.html">Make your bots public</a></li>
+<li class="toctree-l1"><a class="reference internal" href="youtube_apis.html">Youtube APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amazon_apis.html">Amazon APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linkedin_apis.html">Linkedin APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twitter_apis.html">Twitter APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="google_apis.html">Google APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="other_apis.html">Other APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basic_apis.html">Basic APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contactus.html">Contact Us</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">datakund</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Run Api</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/run_api.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="run-api">
+<h1>Run Api<a class="headerlink" href="#run-api" title="Permalink to this headline"></a></h1>
+<div class="section" id="api">
+<h2>Api<a class="headerlink" href="#api" title="Permalink to this headline"></a></h2>
+<p>We are runing a sample api of scraping amazon product info.</p>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-0-UHl0aG9u" aria-selected="true" class="sphinx-tabs-tab code-tab group-tab" id="tab-0-UHl0aG9u" name="UHl0aG9u" role="tab" tabindex="0">Python</button><button aria-controls="panel-0-Tm9kZUpT" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-0-Tm9kZUpT" name="Tm9kZUpT" role="tab" tabindex="-1">NodeJS</button><button aria-controls="panel-0-Q3VybA==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-0-Q3VybA==" name="Q3VybA==" role="tab" tabindex="-1">Curl</button></div><div aria-labelledby="tab-0-UHl0aG9u" class="sphinx-tabs-panel code-tab group-tab" id="panel-0-UHl0aG9u" name="UHl0aG9u" role="tabpanel" tabindex="0"><div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">dk_object</span><span class="o">.</span><span class="n">amazon_product_info</span><span class="p">(</span><span class="n">product_url</span><span class="o">=</span><span class="s1">&#39;https://www.amazon.in/Sony-WF-XB700-Wireless-Bluetooth-Headphones/dp/B085VQFZ8Z&#39;</span><span class="p">,</span><span class="n">apiKey</span><span class="o">=</span><span class="s2">&quot;place your api key here&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-0-Tm9kZUpT" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-0-Tm9kZUpT" name="Tm9kZUpT" role="tabpanel" tabindex="0"><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">datakund</span><span class="p">.</span><span class="nx">amazon_product_info</span><span class="p">(</span><span class="s1">&#39;https://www.amazon.in/Sony-WF-XB700-Wireless-Bluetooth-Headphones/dp/B085VQFZ8Z&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-0-Q3VybA==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-0-Q3VybA==" name="Q3VybA==" role="tabpanel" tabindex="0"><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST http://127.0.0.1:5000/run -H <span class="s1">&#39;cache-control: no-cache&#39;</span> -H <span class="s1">&#39;content-type: application/json&#39;</span> -d <span class="s1">&#39;{&quot;user&quot;:&quot;apiKey&quot;,&quot;bot&quot;:&quot;amazon_product_info&quot;,&quot;outputdata&quot;:{&quot;product_url&quot;:&quot;https://www.amazon.in/Sony-WF-XB700-Wireless-Bluetooth-Headphones/dp/B085VQFZ8Z&quot;}}&#39;</span>
+</pre></div>
+</div>
+</div></div>
+</div>
+<div class="section" id="response-data">
+<h2>Response Data<a class="headerlink" href="#response-data" title="Permalink to this headline"></a></h2>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+ <span class="nt">&quot;body&quot;</span><span class="p">:{</span>
+   <span class="nt">&quot;Review Terms&quot;</span><span class="p">:</span> <span class="s2">&quot;sound quality noise cancellation battery life value for money extra bass price range battery backup call quality earbud stopped working right earbud listening to music charging case&quot;</span><span class="p">,</span>
+   <span class="nt">&quot;NoOfRatings&quot;</span><span class="p">:</span> <span class="s2">&quot;14,439 ratings&quot;</span><span class="p">,</span>
+   <span class="nt">&quot;ReviewsLink&quot;</span><span class="p">:</span> <span class="s2">&quot;https://www.amazon.in/Sony-WF-XB700-Wireless-Bluetooth-Headphones/product-reviews/B085VQFZ8Z/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&amp;reviewerType=all_reviews&quot;</span><span class="p">,</span>
+   <span class="nt">&quot;Price&quot;</span><span class="p">:</span> <span class="s2">&quot;7,886&quot;</span><span class="p">,</span>
+   <span class="nt">&quot;Description&quot;</span><span class="p">:</span> <span class="s2">&quot;Extra Bass: WF-XB700 features EXTRA BASS for seriously powerful, punchy low-end sound. Your favourite basslines never sounded so good with 12mm driver unit. Frequency Response (..............&quot;</span><span class="p">,</span>
+   <span class="nt">&quot;Title&quot;</span><span class="p">:</span> <span class="s2">&quot;Sony WF-XB700 Truly Wireless Extra Bass Bluetooth Earbuds with 18 Hours Battery Life, True Wireless Earbuds with Mic for Phone Calls, Quick Charge, BT Ver 5.0 (Black)&quot;</span>
+  <span class="p">},</span>
+ <span class="nt">&quot;success_score&quot;</span><span class="p">:</span> <span class="s2">&quot;100&quot;</span><span class="p">,</span>
+ <span class="nt">&quot;errors&quot;</span><span class="p">:</span> <span class="p">[]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-code-from-datakund">
+<h2>Get Code from DataKund<a class="headerlink" href="#get-code-from-datakund" title="Permalink to this headline"></a></h2>
+<p>To access code of your function:-</p>
+<ul class="simple">
+<li><p>Go to Code Section in extension</p></li>
+<li><p>Go to python and copy the code</p></li>
+<li><p>Now run that code, your api will run</p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="create_object.html" class="btn btn-neutral float-left" title="Installing Packages" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="make_bots_public.html" class="btn btn-neutral float-right" title="Make your bots public" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, DataKund.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
