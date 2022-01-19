@@ -17,6 +17,7 @@ Welcome to datakund's documentation!
    create_object
    run_api
    make_bots_public
+   scrapers
    youtube_apis
    amazon_apis
    linkedin_apis

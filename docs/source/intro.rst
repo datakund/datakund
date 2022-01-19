@@ -16,7 +16,6 @@ It currently runs only on windows.
     <iframe class="mbr-embedded-video" width="570" height="280" src="https://www.youtube.com/embed/Mqzx5zzuSUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 
-***************************
 How does DataKund works?
 ***************************
 The DataKund cycle goes through something like this:-
@@ -28,7 +27,6 @@ The DataKund cycle goes through something like this:-
 5. Once made, now can run them any number of times.
 
 
-***************************
 Why DataKund?
 ***************************
 
