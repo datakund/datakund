@@ -1,5 +1,5 @@
 Other APIS
-***********
+************
 
 Following are some apis which are built with Datakund, these are public apis.
 
@@ -13,14 +13,14 @@ It will open the url provided in the parameters.
    .. code-tab:: py
 
 		 from bot_studio import *
-		 dk_object=bot_studio.new()
-         response=dk_object.epoch_timestamp_converter("time_stamp":"put time stamp here")
+   dk_object=bot_studio.new()
+   response=dk_object.epoch_timestamp_converter("time_stamp":"put time stamp here")
 
    .. code-tab:: javascript
 		 NodeJS
    
 		 var datakund=require("datakund")
-         response=datakund.epoch_timestamp_converter("put time stamp here")
+   response=datakund.epoch_timestamp_converter("put time stamp here")
 	
    .. code-tab:: bash
 		 Curl
@@ -53,14 +53,14 @@ It will open the url provided in the parameters.
    .. code-tab:: py
 
 		 from bot_studio import *
-		 dk_object=bot_studio.new()
-         response=dk_object.coindesk_bitcoin("currency_link":"put link here")
+   dk_object=bot_studio.new()
+   response=dk_object.coindesk_bitcoin("currency_link":"put link here")
 
    .. code-tab:: javascript
 		 NodeJS
    
 		 var datakund=require("datakund")
-         response=datakund.coindesk_bitcoin("put link here")
+   response=datakund.coindesk_bitcoin("put link here")
 	
    .. code-tab:: bash
 		 Curl

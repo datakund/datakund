@@ -14,7 +14,6 @@ Welcome to datakund's documentation!
    installation
    api_tutorials
    video_tutorials
-   create_object
    run_api
    make_bots_public
    scrapers

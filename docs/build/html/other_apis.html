@@ -20,7 +20,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Basic APIS" href="basic_apis.html" />
-    <link rel="prev" title="Google APIS" href="google_apis.html" /> 
+    <link rel="prev" title="Google APIs" href="google_apis.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -44,16 +44,14 @@
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation/Usage:</a></li>
 <li class="toctree-l1"><a class="reference internal" href="api_tutorials.html">API Tutorials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="video_tutorials.html">Video Tutorials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="create_object.html">Installing Packages</a></li>
-<li class="toctree-l1"><a class="reference internal" href="create_object.html#starting-session">Starting Session</a></li>
 <li class="toctree-l1"><a class="reference internal" href="run_api.html">Run Api</a></li>
 <li class="toctree-l1"><a class="reference internal" href="make_bots_public.html">Make your bots public</a></li>
 <li class="toctree-l1"><a class="reference internal" href="scrapers.html">Scrapers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="youtube_apis.html">Youtube APIS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="amazon_apis.html">Amazon APIS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="linkedin_apis.html">Linkedin APIS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twitter_apis.html">Twitter APIS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="google_apis.html">Google APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="youtube_apis.html">Youtube APIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amazon_apis.html">Amazon APIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linkedin_apis.html">Linkedin APIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="twitter_apis.html">Twitter APIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="google_apis.html">Google APIs</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Other APIS</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#epoch-timestamp-converter">Epoch Timestamp Converter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#coindesk-bitcoin-scraper">Coindesk Bitcoin Scraper</a></li>
@@ -94,16 +92,16 @@
 <h2>Epoch Timestamp Converter<a class="headerlink" href="#epoch-timestamp-converter" title="Permalink to this headline"></a></h2>
 <p>It will open the url provided in the parameters.</p>
 <div class="sphinx-tabs docutils container">
-<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-0-UHl0aG9u" aria-selected="true" class="sphinx-tabs-tab code-tab group-tab" id="tab-0-UHl0aG9u" name="UHl0aG9u" role="tab" tabindex="0">Python</button><button aria-controls="panel-0-Tm9kZUpT" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-0-Tm9kZUpT" name="Tm9kZUpT" role="tab" tabindex="-1">NodeJS</button><button aria-controls="panel-0-Q3VybA==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-0-Q3VybA==" name="Q3VybA==" role="tab" tabindex="-1">Curl</button><button aria-controls="panel-0-0-0" aria-selected="false" class="sphinx-tabs-tab" id="tab-0-0-0" name="0-0" role="tab" tabindex="-1">Cloud</button></div><div aria-labelledby="tab-0-UHl0aG9u" class="sphinx-tabs-panel code-tab group-tab" id="panel-0-UHl0aG9u" name="UHl0aG9u" role="tabpanel" tabindex="0"><div class="highlight-py notranslate"><div class="highlight"><pre><span></span>        <span class="kn">from</span> <span class="nn">bot_studio</span> <span class="kn">import</span> <span class="o">*</span>
-        <span class="n">dk_object</span><span class="o">=</span><span class="n">bot_studio</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
-<span class="n">response</span><span class="o">=</span><span class="n">dk_object</span><span class="o">.</span><span class="n">epoch_timestamp_converter</span><span class="p">(</span><span class="s2">&quot;time_stamp&quot;</span><span class="p">:</span><span class="s2">&quot;put time stamp here&quot;</span><span class="p">)</span>
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-0-UHl0aG9u" aria-selected="true" class="sphinx-tabs-tab code-tab group-tab" id="tab-0-UHl0aG9u" name="UHl0aG9u" role="tab" tabindex="0">Python</button><button aria-controls="panel-0-Tm9kZUpT" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-0-Tm9kZUpT" name="Tm9kZUpT" role="tab" tabindex="-1">NodeJS</button><button aria-controls="panel-0-Q3VybA==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-0-Q3VybA==" name="Q3VybA==" role="tab" tabindex="-1">Curl</button><button aria-controls="panel-0-0-0" aria-selected="false" class="sphinx-tabs-tab" id="tab-0-0-0" name="0-0" role="tab" tabindex="-1">Cloud</button></div><div aria-labelledby="tab-0-UHl0aG9u" class="sphinx-tabs-panel code-tab group-tab" id="panel-0-UHl0aG9u" name="UHl0aG9u" role="tabpanel" tabindex="0"><div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">bot_studio</span> <span class="kn">import</span> <span class="o">*</span>
 </pre></div>
 </div>
-</div><div aria-labelledby="tab-0-Tm9kZUpT" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-0-Tm9kZUpT" name="Tm9kZUpT" role="tabpanel" tabindex="0"><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span>        <span class="kd">var</span> <span class="nx">datakund</span><span class="o">=</span><span class="nx">require</span><span class="p">(</span><span class="s2">&quot;datakund&quot;</span><span class="p">)</span>
-<span class="nx">response</span><span class="o">=</span><span class="nx">datakund</span><span class="p">.</span><span class="nx">epoch_timestamp_converter</span><span class="p">(</span><span class="s2">&quot;put time stamp here&quot;</span><span class="p">)</span>
+</div><p>dk_object=bot_studio.new()
+response=dk_object.epoch_timestamp_converter(“time_stamp”:”put time stamp here”)</p>
+<div aria-labelledby="tab-0-Tm9kZUpT" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-0-Tm9kZUpT" name="Tm9kZUpT" role="tabpanel" tabindex="0"><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">datakund</span><span class="o">=</span><span class="nx">require</span><span class="p">(</span><span class="s2">&quot;datakund&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-</div><div aria-labelledby="tab-0-Q3VybA==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-0-Q3VybA==" name="Q3VybA==" role="tabpanel" tabindex="0"><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST http://127.0.0.1:5000/datakundapi -H <span class="s1">&#39;cache-control: no-cache&#39;</span> -H <span class="s1">&#39;content-type: application/json&#39;</span> -d <span class="s1">&#39;{&quot;user&quot;:&quot;apiKey&quot;,&quot;bot&quot;:&quot;epoch_timestamp_converter~D75HsPTUIeOmN0bLp5ulrwB7F1f2&quot;,&quot;outputdata&quot;:{&quot;time_stamp&quot;:&quot;put time stamp here&quot;}}&#39;</span>
+</div><p>response=datakund.epoch_timestamp_converter(“put time stamp here”)</p>
+<div aria-labelledby="tab-0-Q3VybA==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-0-Q3VybA==" name="Q3VybA==" role="tabpanel" tabindex="0"><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST http://127.0.0.1:5000/datakundapi -H <span class="s1">&#39;cache-control: no-cache&#39;</span> -H <span class="s1">&#39;content-type: application/json&#39;</span> -d <span class="s1">&#39;{&quot;user&quot;:&quot;apiKey&quot;,&quot;bot&quot;:&quot;epoch_timestamp_converter~D75HsPTUIeOmN0bLp5ulrwB7F1f2&quot;,&quot;outputdata&quot;:{&quot;time_stamp&quot;:&quot;put time stamp here&quot;}}&#39;</span>
 </pre></div>
 </div>
 </div><div aria-labelledby="tab-0-0-0" class="sphinx-tabs-panel" hidden="true" id="panel-0-0-0" name="0-0" role="tabpanel" tabindex="0"><p>You can run this bot on <a class="reference external" href="https://twitter-api.datakund.com/en/latest/">cloud</a> also</p>
@@ -122,16 +120,16 @@
 <h2>Coindesk Bitcoin Scraper<a class="headerlink" href="#coindesk-bitcoin-scraper" title="Permalink to this headline"></a></h2>
 <p>It will open the url provided in the parameters.</p>
 <div class="sphinx-tabs docutils container">
-<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-1-UHl0aG9u" aria-selected="true" class="sphinx-tabs-tab code-tab group-tab" id="tab-1-UHl0aG9u" name="UHl0aG9u" role="tab" tabindex="0">Python</button><button aria-controls="panel-1-Tm9kZUpT" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-1-Tm9kZUpT" name="Tm9kZUpT" role="tab" tabindex="-1">NodeJS</button><button aria-controls="panel-1-Q3VybA==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-1-Q3VybA==" name="Q3VybA==" role="tab" tabindex="-1">Curl</button><button aria-controls="panel-1-1-0" aria-selected="false" class="sphinx-tabs-tab" id="tab-1-1-0" name="1-0" role="tab" tabindex="-1">Cloud</button></div><div aria-labelledby="tab-1-UHl0aG9u" class="sphinx-tabs-panel code-tab group-tab" id="panel-1-UHl0aG9u" name="UHl0aG9u" role="tabpanel" tabindex="0"><div class="highlight-py notranslate"><div class="highlight"><pre><span></span>        <span class="kn">from</span> <span class="nn">bot_studio</span> <span class="kn">import</span> <span class="o">*</span>
-        <span class="n">dk_object</span><span class="o">=</span><span class="n">bot_studio</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
-<span class="n">response</span><span class="o">=</span><span class="n">dk_object</span><span class="o">.</span><span class="n">coindesk_bitcoin</span><span class="p">(</span><span class="s2">&quot;currency_link&quot;</span><span class="p">:</span><span class="s2">&quot;put link here&quot;</span><span class="p">)</span>
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-1-UHl0aG9u" aria-selected="true" class="sphinx-tabs-tab code-tab group-tab" id="tab-1-UHl0aG9u" name="UHl0aG9u" role="tab" tabindex="0">Python</button><button aria-controls="panel-1-Tm9kZUpT" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-1-Tm9kZUpT" name="Tm9kZUpT" role="tab" tabindex="-1">NodeJS</button><button aria-controls="panel-1-Q3VybA==" aria-selected="false" class="sphinx-tabs-tab code-tab group-tab" id="tab-1-Q3VybA==" name="Q3VybA==" role="tab" tabindex="-1">Curl</button><button aria-controls="panel-1-1-0" aria-selected="false" class="sphinx-tabs-tab" id="tab-1-1-0" name="1-0" role="tab" tabindex="-1">Cloud</button></div><div aria-labelledby="tab-1-UHl0aG9u" class="sphinx-tabs-panel code-tab group-tab" id="panel-1-UHl0aG9u" name="UHl0aG9u" role="tabpanel" tabindex="0"><div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">bot_studio</span> <span class="kn">import</span> <span class="o">*</span>
 </pre></div>
 </div>
-</div><div aria-labelledby="tab-1-Tm9kZUpT" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-1-Tm9kZUpT" name="Tm9kZUpT" role="tabpanel" tabindex="0"><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span>        <span class="kd">var</span> <span class="nx">datakund</span><span class="o">=</span><span class="nx">require</span><span class="p">(</span><span class="s2">&quot;datakund&quot;</span><span class="p">)</span>
-<span class="nx">response</span><span class="o">=</span><span class="nx">datakund</span><span class="p">.</span><span class="nx">coindesk_bitcoin</span><span class="p">(</span><span class="s2">&quot;put link here&quot;</span><span class="p">)</span>
+</div><p>dk_object=bot_studio.new()
+response=dk_object.coindesk_bitcoin(“currency_link”:”put link here”)</p>
+<div aria-labelledby="tab-1-Tm9kZUpT" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-1-Tm9kZUpT" name="Tm9kZUpT" role="tabpanel" tabindex="0"><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">datakund</span><span class="o">=</span><span class="nx">require</span><span class="p">(</span><span class="s2">&quot;datakund&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-</div><div aria-labelledby="tab-1-Q3VybA==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-1-Q3VybA==" name="Q3VybA==" role="tabpanel" tabindex="0"><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST http://127.0.0.1:5000/datakundapi -H <span class="s1">&#39;cache-control: no-cache&#39;</span> -H <span class="s1">&#39;content-type: application/json&#39;</span> -d <span class="s1">&#39;{&quot;user&quot;:&quot;apiKey&quot;,&quot;bot&quot;:&quot;coindesk_bitcoin~D75HsPTUIeOmN0bLp5ulrwB7F1f2&quot;,&quot;outputdata&quot;:{&quot;currency_link&quot;:&quot;put link here&quot;}}&#39;</span>
+</div><p>response=datakund.coindesk_bitcoin(“put link here”)</p>
+<div aria-labelledby="tab-1-Q3VybA==" class="sphinx-tabs-panel code-tab group-tab" hidden="true" id="panel-1-Q3VybA==" name="Q3VybA==" role="tabpanel" tabindex="0"><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -X POST http://127.0.0.1:5000/datakundapi -H <span class="s1">&#39;cache-control: no-cache&#39;</span> -H <span class="s1">&#39;content-type: application/json&#39;</span> -d <span class="s1">&#39;{&quot;user&quot;:&quot;apiKey&quot;,&quot;bot&quot;:&quot;coindesk_bitcoin~D75HsPTUIeOmN0bLp5ulrwB7F1f2&quot;,&quot;outputdata&quot;:{&quot;currency_link&quot;:&quot;put link here&quot;}}&#39;</span>
 </pre></div>
 </div>
 </div><div aria-labelledby="tab-1-1-0" class="sphinx-tabs-panel" hidden="true" id="panel-1-1-0" name="1-0" role="tabpanel" tabindex="0"><p>You can run this bot on <a class="reference external" href="https://datakund.com/products/coindesk">cloud</a> also</p>
@@ -158,7 +156,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="google_apis.html" class="btn btn-neutral float-left" title="Google APIS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="google_apis.html" class="btn btn-neutral float-left" title="Google APIs" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="basic_apis.html" class="btn btn-neutral float-right" title="Basic APIS" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
