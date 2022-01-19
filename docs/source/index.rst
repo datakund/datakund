@@ -22,7 +22,6 @@ Welcome to datakund's documentation!
    linkedin_apis
    twitter_apis
    google_apis
-   other_apis
    basic_apis
    contactus
 
