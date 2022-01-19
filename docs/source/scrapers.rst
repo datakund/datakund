@@ -1,5 +1,5 @@
 ********
-Scrapers
+Scraper APIs
 ********
 
 * `Yellow Pages Business Details Scraper Bot <https://scrapers.readthedocs.io/en/latest/Yellow%20Pages%20Business%20Details%20Scraper%20Bot.html>`_. 

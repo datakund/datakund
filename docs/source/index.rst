@@ -12,11 +12,12 @@ Welcome to datakund's documentation!
 	
    intro
    installation
-   api_tutorials
+   actions
    video_tutorials
    run_api
    make_bots_public
    scrapers
+   applications
    youtube_apis
    amazon_apis
    linkedin_apis
