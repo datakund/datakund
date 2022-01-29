@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Installation/Usage: &mdash; datakund 1.0.0 documentation</title>
+  <title>Installation: &mdash; datakund 1.0.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
@@ -18,8 +18,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="API Tutorials" href="api_tutorials.html" />
-    <link rel="prev" title="Introduction to DataKund" href="intro.html" /> 
+    <link rel="next" title="Learn DataKund" href="applications.html" />
+    <link rel="prev" title="DataKund - Automate Browsers without Selenium scripting" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -39,33 +39,25 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction to DataKund</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation/Usage:</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#installing-packages">Installing Packages</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#python">Python</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#nodejs">NodeJs</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#curl-http">Curl/HTTP</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation:</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pip">Pip</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#npm">Npm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#standalone-executable">Standalone Executable</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#starting-session">Starting Session</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id1">Python</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id2">NodeJs</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id3">Curl/HTTP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#usage">Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#python">Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#nodejs">NodeJs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#curl-http">Curl/HTTP</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="api_tutorials.html">API Tutorials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="video_tutorials.html">Video Tutorials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="run_api.html">Run Api</a></li>
-<li class="toctree-l1"><a class="reference internal" href="make_bots_public.html">Make your bots public</a></li>
-<li class="toctree-l1"><a class="reference internal" href="scrapers.html">Scrapers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="applications.html">Learn DataKund</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapers.html">Scraper APIs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="youtube_apis.html">Youtube APIs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="amazon_apis.html">Amazon APIs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="linkedin_apis.html">Linkedin APIs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="twitter_apis.html">Twitter APIs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="google_apis.html">Google APIs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="other_apis.html">Other APIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="basic_apis.html">Basic APIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contactus.html">Contact Us</a></li>
 </ul>
@@ -84,7 +76,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Installation/Usage:</li>
+      <li>Installation:</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/installation.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -94,63 +86,58 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="installation-usage">
-<h1>Installation/Usage:<a class="headerlink" href="#installation-usage" title="Permalink to this headline"></a></h1>
-<ul class="simple">
-<li><p>You can download DataKund tool from <a class="reference external" href="https://firebasestorage.googleapis.com/v0/b/datakund-studio.appspot.com/o/DataKund.exe?alt=media&amp;token=a2a15cfc-2f4f-4dd1-b603-ca988371c4c2">here</a>.</p></li>
-<li><p>Install the setup and Run DataKund.</p></li>
-<li><p>To use DataKund you are first required to login to datakund.com</p></li>
-<li><p>Now you can create your apis.</p></li>
-</ul>
-<div class="section" id="installing-packages">
-<h2>Installing Packages<a class="headerlink" href="#installing-packages" title="Permalink to this headline"></a></h2>
-<p>DataKund provides packages for Python and NodeJs to run apis through simple functions.</p>
-<div class="section" id="python">
-<h3>Python<a class="headerlink" href="#python" title="Permalink to this headline"></a></h3>
+  <div class="section" id="installation">
+<h1>Installation:<a class="headerlink" href="#installation" title="Permalink to this headline"></a></h1>
+<div class="section" id="pip">
+<h2>Pip<a class="headerlink" href="#pip" title="Permalink to this headline"></a></h2>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">bot</span><span class="o">-</span><span class="n">studio</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="nodejs">
-<h3>NodeJs<a class="headerlink" href="#nodejs" title="Permalink to this headline"></a></h3>
+<div class="section" id="npm">
+<h2>Npm<a class="headerlink" href="#npm" title="Permalink to this headline"></a></h2>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">npm</span> <span class="n">install</span> <span class="n">datakund</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="curl-http">
-<h3>Curl/HTTP<a class="headerlink" href="#curl-http" title="Permalink to this headline"></a></h3>
-<p>For curl or post requests you don’t need to install any package, just run DataKund.exe</p>
+<div class="section" id="standalone-executable">
+<h2>Standalone Executable<a class="headerlink" href="#standalone-executable" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://firebasestorage.googleapis.com/v0/b/datakund-studio.appspot.com/o/DataKund.exe?alt=media&amp;token=a2a15cfc-2f4f-4dd1-b603-ca988371c4c2">Download for Windows</a></p></li>
+</ul>
 </div>
 </div>
-<div class="section" id="starting-session">
-<h2>Starting Session<a class="headerlink" href="#starting-session" title="Permalink to this headline"></a></h2>
-<p>To run  apis first you need to start DataKund and create a session or can say open a browser to run apis on that.</p>
-<div class="section" id="id1">
-<h3>Python<a class="headerlink" href="#id1" title="Permalink to this headline"></a></h3>
+<div class="section" id="usage">
+<h1>Usage<a class="headerlink" href="#usage" title="Permalink to this headline"></a></h1>
+<ul class="simple">
+<li><p>Starting DataKund will require login to <a class="reference external" href="https://datakund.com">DataKund</a></p></li>
+<li><p>After login, drivers will be installed &amp; browser window will open up</p></li>
+</ul>
+<div class="section" id="python">
+<h2>Python<a class="headerlink" href="#python" title="Permalink to this headline"></a></h2>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">bot_studio</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="n">dk_object</span><span class="o">=</span><span class="n">bot_studio</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+<span class="n">datakund</span><span class="o">=</span><span class="n">bot_studio</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="id2">
-<h3>NodeJs<a class="headerlink" href="#id2" title="Permalink to this headline"></a></h3>
+<div class="section" id="nodejs">
+<h2>NodeJs<a class="headerlink" href="#nodejs" title="Permalink to this headline"></a></h2>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">datakund</span><span class="o">=</span><span class="nx">require</span><span class="p">(</span><span class="s2">&quot;datakund&quot;</span><span class="p">);</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="id3">
-<h3>Curl/HTTP<a class="headerlink" href="#id3" title="Permalink to this headline"></a></h3>
-<p>As DataKund is already runing and browser is already opened, so no need to create any session.</p>
-</div>
-</div>
+<div class="section" id="curl-http">
+<h2>Curl/HTTP<a class="headerlink" href="#curl-http" title="Permalink to this headline"></a></h2>
+<p>DataKund listens on port 5350</p>
+<iframe src="_static/install_login.html" height="0px" width="0%"></iframe></div>
 </div>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="intro.html" class="btn btn-neutral float-left" title="Introduction to DataKund" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="api_tutorials.html" class="btn btn-neutral float-right" title="API Tutorials" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="DataKund - Automate Browsers without Selenium scripting" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="applications.html" class="btn btn-neutral float-right" title="Learn DataKund" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

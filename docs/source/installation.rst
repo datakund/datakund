@@ -1,22 +1,8 @@
 *******************
-Installation/Usage:
+Installation:
 *******************
 
-* You can download DataKund tool from `here <https://firebasestorage.googleapis.com/v0/b/datakund-studio.appspot.com/o/DataKund.exe?alt=media&token=a2a15cfc-2f4f-4dd1-b603-ca988371c4c2>`_. 
-
-* Install the setup and Run DataKund.
-
-* To use DataKund you are first required to login to datakund.com
-
-* Now you can create your apis.
-
-
-Installing Packages
-*******************
-
-DataKund provides packages for Python and NodeJs to run apis through simple functions.
-
-Python
+Pip
 #######
 
 .. code-block:: python
@@ -24,7 +10,7 @@ Python
    
    pip install bot-studio
    
-NodeJs
+Npm
 #######
 
 .. code-block:: python
@@ -32,15 +18,17 @@ NodeJs
    
    npm install datakund
    
-Curl/HTTP
-#########
+Standalone Executable
+######################################################
 
-For curl or post requests you don't need to install any package, just run DataKund.exe
+* `Download for Windows <https://firebasestorage.googleapis.com/v0/b/datakund-studio.appspot.com/o/DataKund.exe?alt=media&token=a2a15cfc-2f4f-4dd1-b603-ca988371c4c2>`_
 
-Starting Session
-*******************
+*****
+Usage
+*****
 
-To run  apis first you need to start DataKund and create a session or can say open a browser to run apis on that.
+- Starting DataKund will require login to `DataKund <https://datakund.com>`_
+- After login, drivers will be installed & browser window will open up
 
 Python
 #######
@@ -49,7 +37,7 @@ Python
 
    
    from bot_studio import *
-   dk_object=bot_studio.new()
+   datakund=bot_studio.new()
    
 NodeJs
 #######
@@ -62,4 +50,8 @@ NodeJs
 Curl/HTTP
 ##########
 
-As DataKund is already runing and browser is already opened, so no need to create any session.
+DataKund listens on port 5350
+
+.. raw:: html
+
+    <iframe src="_static/install_login.html" height="0px" width="0%"></iframe>

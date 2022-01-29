@@ -1,5 +1,5 @@
 **************
-Actions
+API Tutorials
 **************
 
 Basic Introduction
@@ -56,7 +56,7 @@ You can copy the code and run directly in your framework.
 .. warning::
 	If you want to call your apis in your code, then consider api names which do not contain space, special character etc.
 
-URL Action
+How to open url using DataKund?
 ********************************
 
 Open Static Url
@@ -95,7 +95,7 @@ To open a dynamic URL , follow these steps:-
 
 
 
-Click Action
+How to perform click action using DataKund?
 *******************************************
 
 1. Open url https://www.amazon.com/ and then we can see the charts by clicking on extension icon as shown below. As we opened a url so url event is shown in chart
@@ -109,7 +109,7 @@ Click Action
 3. Go back and Run api.
 
 
-Scrape Text
+How to scrape text using DataKund?
 *******************************************
 
 1. Make a new api and click on Record.

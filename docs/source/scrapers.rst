@@ -1,6 +1,6 @@
-********
+****************
 Scraper APIs
-********
+****************
 
 * `Yellow Pages Business Details Scraper Bot <https://scrapers.readthedocs.io/en/latest/Yellow%20Pages%20Business%20Details%20Scraper%20Bot.html>`_. 
 * `Instagram profile Scraper Bot <https://scrapers.readthedocs.io/en/latest/Instagram%20profile%20Scraper%20Bot.html>`_. 
