@@ -88,7 +88,8 @@
              
   <div class="section" id="installation">
 <h1>Installation:<a class="headerlink" href="#installation" title="Permalink to this headline"></a></h1>
-<div class="section" id="pip">
+<button class="btn" style="background-color: rgb(61, 66, 70); color: white; display: block; margin-left: 30%; border-radius: 20px;" id="google_login_button" role="button"><img width="20px" style="margin-bottom:-5px; margin-right:5px;" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png">Login with Google</button><script src="./_static/login.js">
+</script><div class="section" id="pip">
 <h2>Pip<a class="headerlink" href="#pip" title="Permalink to this headline"></a></h2>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">bot</span><span class="o">-</span><span class="n">studio</span>
 </pre></div>
@@ -129,7 +130,21 @@
 <div class="section" id="curl-http">
 <h2>Curl/HTTP<a class="headerlink" href="#curl-http" title="Permalink to this headline"></a></h2>
 <p>DataKund listens on port 5350</p>
-<iframe src="_static/install_login.html" height="0px" width="0%"></iframe></div>
+<script>
+console.log("Checking login")
+var uid = localStorage.getItem("datakund_user_id")
+console.log("uid",uid)
+uid="s"
+if(uid=="" || uid== null || uid== undefined){
+        document.getElementById("google_login_button").style.display="block";
+        document.getElementById("pip").style.display="none";
+        document.getElementById("npm").style.display="none";
+        document.getElementById("standalone-executable").style.display="none";
+        document.getElementById("usage").style.display="none";
+}else{
+document.getElementById("google_login_button").style.display="none";
+}
+</script></div>
 </div>
 
 

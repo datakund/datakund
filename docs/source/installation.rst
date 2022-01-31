@@ -2,6 +2,18 @@
 Installation:
 *******************
 
+.. raw:: html
+
+	<button class="btn" style="background-color: rgb(61, 66, 70); color: white; display: block; margin-left: 30%; border-radius: 20px;" id="google_login_button" role="button"><img width="20px" style="margin-bottom:-5px; margin-right:5px;" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png">Login with Google</button>
+	
+	
+.. raw:: html
+	
+	<script src="./_static/login.js">
+	</script>
+
+
+
 Pip
 #######
 
@@ -53,5 +65,19 @@ Curl/HTTP
 DataKund listens on port 5350
 
 .. raw:: html
-
-    <iframe src="_static/install_login.html" height="0px" width="0%"></iframe>
+	
+	<script>
+	console.log("Checking login")
+	var uid = localStorage.getItem("datakund_user_id")
+	console.log("uid",uid)
+	uid="s"
+	if(uid=="" || uid== null || uid== undefined){
+		document.getElementById("google_login_button").style.display="block";
+		document.getElementById("pip").style.display="none";
+		document.getElementById("npm").style.display="none";
+		document.getElementById("standalone-executable").style.display="none";
+		document.getElementById("usage").style.display="none";
+	}else{
+	document.getElementById("google_login_button").style.display="none";
+	}
+	</script>
