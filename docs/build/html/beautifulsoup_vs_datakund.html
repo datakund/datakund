@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beautifulsoup vs DataKund &mdash; datakund 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installation:" href="installation.html" />
+    <link rel="prev" title="Selenium vs DataKund" href="selenium_vs_datakund.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> datakund
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="selenium_vs_datakund.html">Selenium vs DataKund</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Beautifulsoup vs DataKund</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#scrape-text">Scrape Text</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scrape-link">Scrape Link</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#looping">Looping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#google-sheets">Google Sheets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#flow-chart">Flow Chart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#multiple-language-support">Multiple Language Support</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation:</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html#usage">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="applications.html">Learn DataKund</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapers.html">Scraper APIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prebuilt_apis.html">Pre-Built APIS by DataKund</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basic_apis.html">Basic APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contactus.html">Contact Us</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">datakund</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Beautifulsoup vs DataKund</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/beautifulsoup_vs_datakund.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="beautifulsoup-vs-datakund">
+<h1>Beautifulsoup vs DataKund<a class="headerlink" href="#beautifulsoup-vs-datakund" title="Permalink to this headline"></a></h1>
+<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Features</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Beautifulsoup</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Coding experience</span></td><td style="width: 199px; padding: 10px;"><span>Required</span></td><td style="width: 199px; padding: 10px;"><span>Not Required</span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Customer Support</span></td><td style="width: 199px; padding: 10px;"><span>Open-source Community</span></td><td style="width: 199px; padding: 10px;"><span>Dedicated support</span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>API Support</span></td><td style="width: 199px; padding: 10px;"><span>Cannot perform scrape through apis</span></td><td style="width: 199px; padding: 10px;"><span>Can call apis</span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Maintenance</span></td><td style="width: 199px; padding: 10px;"><span>slight change in website can make the code fail</span></td><td style="width: 199px; padding: 10px;"><span>don't fail with slight changes in website</span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Inspection of Elements</span></td><td style="width: 199px; padding: 10px;"><span>Need to inspect elements to write code</span></td><td style="width: 199px; padding: 10px;"><span>it records itself</span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Time</span></td><td style="width: 199px; padding: 10px;"><span>takes time in writing code</span></td><td style="width: 199px; padding: 10px;"><span>takes no time in making apis</span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Dependencies</span></td><td style="width: 199px; padding: 10px;"><span>Depends on bs4 module and programming language</span></td><td style="width: 199px; padding: 10px;"><span>No programming language or module needed</span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Locators knowledge</span></td><td style="width: 199px; padding: 10px;"><span>knowledge of locators such as id, class etc needed</span></td><td style="width: 199px; padding: 10px;"><span>no such knowledge needed</span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Structure</span></td><td style="width: 199px; padding: 10px;"><span>it's library</span></td><td style="width: 199px; padding: 10px;"><span>it's a complete framework</span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Extensibility</span></td><td style="width: 199px; padding: 10px;"><span>limited to scraping only</span></td><td style="width: 199px; padding: 10px;"><span>can do scraping as well browser actions </span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Consideration</span></td><td style="width: 199px; padding: 10px;"><span>considered as parser</span></td><td style="width: 199px; padding: 10px;"><span>considered as RPA tool </span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Data Format</span></td><td style="width: 199px; padding: 10px;"><span>you need to write code to store in json xcel or spreadsheet</span></td><td style="width: 199px; padding: 10px;"><span>Can attach google sheet for you, then all your data will automatically be saved there</span></td></tr></tbody></table><br><p>Following are some of the other differences between Beautifulsoup and DataKund:-</p>
+<div class="section" id="scrape-text">
+<h2>Scrape Text<a class="headerlink" href="#scrape-text" title="Permalink to this headline"></a></h2>
+<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Beautifulsoup</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>scrape product title</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><em>title=soup.find("h4",{"id":"title"}).getText()</em></span></td><td style="width: 199px; padding: 10px;"><span>Right Click on title>DataKund>Scrape>Text>column name</span></td></tr></tbody></table><br></div>
+<div class="section" id="scrape-link">
+<h2>Scrape Link<a class="headerlink" href="#scrape-link" title="Permalink to this headline"></a></h2>
+<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Beautifulsoup</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>scrape product link</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><em>link=soup.find("a",{"id":"product_link"})["href"]</em></span></td><td style="width: 199px; padding: 10px;"><span>Right Click on product link>DataKund>Scrape>Link>column name</span></td></tr></tbody></table><br></div>
+<div class="section" id="looping">
+<h2>Looping<a class="headerlink" href="#looping" title="Permalink to this headline"></a></h2>
+<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Beautifulsoup</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Get every search result data</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line">find common things by inspecting then loop over them(attributes can change)</span></td><td style="width: 199px; padding: 10px;"><span>apply repeat  by Alt+P , then scrape data by right clicking on data points</span></td></tr></tbody></table><br></div>
+<div class="section" id="google-sheets">
+<h2>Google Sheets<a class="headerlink" href="#google-sheets" title="Permalink to this headline"></a></h2>
+<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Beautifulsoup</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Scraping product links defined in sheet</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line">will need to write both beautifulsoup and google apis code which takes time</span></td><td style="width: 199px; padding: 10px;"><span>just make a simple api of scraping one product and attach google sheet to it</span></td></tr></tbody></table><br></div>
+<div class="section" id="flow-chart">
+<h2>Flow Chart<a class="headerlink" href="#flow-chart" title="Permalink to this headline"></a></h2>
+<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Selenium</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Showing actions in flow chart</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line">no way of representing flow of actions except manually writing</span></td><td style="width: 199px; padding: 10px;"><span>you can see your actions in flow charts, can edit and delete actions as well</span></td></tr></tbody></table><br></div>
+<div class="section" id="multiple-language-support">
+<h2>Multiple Language Support<a class="headerlink" href="#multiple-language-support" title="Permalink to this headline"></a></h2>
+<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Selenium</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>writing selenium code in nodejs</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line">you will need to learn programming language to write selenium for other languages</span></td><td style="width: 199px; padding: 10px;"><span>provides code section, just copy code of desired language from there and run</span></td></tr></tbody></table><br></div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="selenium_vs_datakund.html" class="btn btn-neutral float-left" title="Selenium vs DataKund" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="installation.html" class="btn btn-neutral float-right" title="Installation:" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, DataKund.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
