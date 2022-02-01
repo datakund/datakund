@@ -5,24 +5,42 @@
 
 DataKund - Automate Browsers without Selenium scripting
 ========================================================
-|
-| **DataKund is a powerful Record & Play tool**
-| **Make robots to automate fairly complex tasks by simply recording your tasks in the browser**
 
-| *Lets see a few examples*
+DataKund is a powerful Record & Play tool. It can be used for variety of purposes like web scraping, automation testing, making bots. 
+Make robots to automate fairly complex tasks by simply recording your tasks in the browser.
 
 
-**Yellow Pages Scraper run from Jupyter**
+.. raw:: html
+	
+	<a href="selenium_vs_datakund.html" class="btn float-left" style="font-size: 20px;background-color:#6fa4d2"> Selenium vs DataKund</a>
+	<br></br><br></br>
+	<a href="beautifulsoup_vs_datakund.html" class="btn float-left" style="font-size: 20px;;background-color:#6fa4d2"> BeautifulSoup vs DataKund</a>
+	<br></br>
+	<br></br>
+
+Getting Help
+**************
+
+Having trouble? We’d like to help!
+
+* Want to `Learn <./applications.html>`_ DataKund 
+
+* Looking for specific information? Try the `Index <./index.html>`_.
+
+* Can see pre-built `APIS <./prebuilt_apis.html>`_.
+
+* Not Getting, see `demo <https://youtu.be/Mqzx5zzuSUI>`_.
+
+Example
+**********
+
+**Lets see yellow pages scraper by DataKund in working**
+
 
 .. image:: images/yellowpages_scraper.*
 
-**Social Media Posting Bot**
-
-.. image:: images/post_bot.*
-
-**Google Search Bot run from Postman**
-
-.. image:: images/postman_google_search_bot.*
+What it can do?
+****************
 
 - **Automate Web Apps testing**
 - Automate Repetitive tasks eg.
@@ -51,9 +69,7 @@ DataKund - Automate Browsers without Selenium scripting
    beautifulsoup_vs_datakund
    installation
    applications
-   scrapers
    prebuilt_apis
-   basic_apis
    contactus
 
 

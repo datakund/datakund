@@ -143,3 +143,266 @@ Following are some of Google APIs:-
 * `Click Next <https://google-api.datakund.com/en/latest/click_next.html>`_
 * `Search Results <https://google-api.datakund.com/en/latest/search_results.html>`_
 * `Search Image Results <https://google-api.datakund.com/en/latest/search_image_results.html>`_
+
+Scraper APIs
+****************
+
+* `Yellow Pages Business Details Scraper Bot <https://scrapers.readthedocs.io/en/latest/Yellow%20Pages%20Business%20Details%20Scraper%20Bot.html>`_. 
+* `Instagram profile Scraper Bot <https://scrapers.readthedocs.io/en/latest/Instagram%20profile%20Scraper%20Bot.html>`_. 
+* `LinkedIn Search Results Scraper Bot <https://scrapers.readthedocs.io/en/latest/LinkedIn%20Search%20Results%20Scraper%20Bot.html>`_. 
+* `Google Trends Scraper Bot <https://scrapers.readthedocs.io/en/latest/Google%20Trends%20Scraper%20Bot.html>`_. 
+* `Reddit Post Scraper <https://scrapers.readthedocs.io/en/latest/Reddit%20Post%20Scraper.html>`_. 
+* `Square Yards Properties Scraper With No Input <https://scrapers.readthedocs.io/en/latest/Square%20Yards%20Properties%20Scraper%20With%20No%20Input.html>`_. 
+* `9/11 Victim List Scraper <https://scrapers.readthedocs.io/en/latest/9%2011%20Victim%20List%20Scraper.html>`_. 
+* `Coin Market Cap Scraper <https://scrapers.readthedocs.io/en/latest/Coin%20Market%20Cap%20Scraper.html>`_. 
+* `All movie scraper <https://scrapers.readthedocs.io/en/latest/All%20movie%20scraper.html>`_. 
+* `Amazon Product Price Scraper Bot <https://scrapers.readthedocs.io/en/latest/Amazon%20Product%20Price%20Scraper%20Bot.html>`_. 
+* `Bing Search Scraper <https://scrapers.readthedocs.io/en/latest/Bing%20Search%20Scraper.html>`_. 
+* `Coindesk Price Scraper with Commodity Link <https://scrapers.readthedocs.io/en/latest/Coindesk%20Price%20Scraper.html>`_. 
+* `Down Detector Scraper <https://scrapers.readthedocs.io/en/latest/Down%20Detector%20Scraper.html>`_. 
+* `Epoch Timestamp Converter Scraper <https://scrapers.readthedocs.io/en/latest/Epoch%20Timestamp%20Converter%20Scraper.html>`_. 
+* `Facebook Friend List Scraper Bot <https://scrapers.readthedocs.io/en/latest/Facebook%20Friend%20List%20Scraper%20Bot.html>`_. 
+* `Gaana Scraper <https://scrapers.readthedocs.io/en/latest/Gaana%20Scraper.html>`_. 
+* `Google Scholar Scraper <https://scrapers.readthedocs.io/en/latest/google%20scholar%20scraper.html>`_. 
+* `Google Search Result Scraper <https://scrapers.readthedocs.io/en/latest/Google%20Search%20Result%20Scraper.html>`_. 
+* `IMDb Top 250 Movies Scraper <https://scrapers.readthedocs.io/en/latest/IMDb%20Top%20250%20Movies%20Scraper.html>`_. 
+* `Goodreads by Keyword Scraper <https://scrapers.readthedocs.io/en/latest/Goodreads%20by%20Keyword%20Scraper.html>`_. 
+* `Investing.com World Indices Scraper <https://scrapers.readthedocs.io/en/latest/Investing_com%20World%20Indices%20Scraper.html>`_. 
+* `Trading View Market Indices Scraper <https://scrapers.readthedocs.io/en/latest/Trading%20View%20Market%20Indices%20Scraper.html>`_. 
+* `Trip Advisor Reviews Scraper <https://scrapers.readthedocs.io/en/latest/Trip%20Advisor%20Reviews%20Scraper.html>`_. 
+* `Wikipedia Current Events <https://scrapers.readthedocs.io/en/latest/Wikipedia%20Current%20Events.html>`_. 
+* `Wikipedia GDP per Capita Scraper <https://scrapers.readthedocs.io/en/latest/Wikipedia%20GDP%20per%20Capita%20Scraper.html>`_. 
+* `Wordpress Blog Post Scraper <https://scrapers.readthedocs.io/en/latest/Wordpress%20Blog%20Post%20Scraper.html>`_. 
+* `Worldometer COVID Stats Scraper <https://scrapers.readthedocs.io/en/latest/Worldometer%20COVID%20Stats%20Scraper.html>`_. 
+* `Yahoo Finance Historical Data Scraper <https://scrapers.readthedocs.io/en/latest/Yahoo%20Finance%20Historical%20Data%20Scraper.html>`_. 
+* `Yahoo finance Scraper <https://scrapers.readthedocs.io/en/latest/Yahoo%20Finance%20Scraper.html>`_. 
+* `Yahoo Ticker Symbol Scraper <https://scrapers.readthedocs.io/en/latest/Yahoo%20Ticker%20Symbol%20Scraper.html>`_. 
+* `Yelp Review Scraper <https://scrapers.readthedocs.io/en/latest/Yelp%20Review%20Scraper.html>`_. 
+* `Youtube Data Scrape <https://scrapers.readthedocs.io/en/latest/Youtube%20Data%20Scrape.html>`_. 
+* `Youtube Playlist Scraper <https://scrapers.readthedocs.io/en/latest/Youtube%20Playlist%20Scraper.html>`_. 
+
+
+Basic APIS
+**************************************************
+You can use basic apis which selenium provides with this tool like opening a url, get pagesource, get current url etc. These are the functions:-
+
+Open
+========
+
+It will open the url provided in the parameters.
+
+.. tabs::
+
+   .. code-tab:: py
+
+         dk_object.open(url)
+
+   .. code-tab:: javascript
+		 NodeJS
+   
+         datakund.open(url)
+	
+   .. code-tab:: bash
+		 Curl
+
+         curl -X POST http://127.0.0.1:5000/open -H 'cache-control: no-cache' -H 'content-type: application/json' -d '{"url":"https://www.google.com"}'
+
+
+	
+Get Page Title
+=================
+
+It returns the title of page opened.
+
+.. tabs::
+
+   .. code-tab:: py
+
+         response=dk_object.get_page_title()
+
+   .. code-tab:: javascript
+		 NodeJS
+   
+         response=datakund.get_page_title()
+	
+   .. code-tab:: bash
+		 Curl
+
+         curl -X POST http://127.0.0.1:5000/get_page_title -H 'cache-control: no-cache' -H 'content-type: application/json' -d '{}'
+	
+   .. code-tab:: json
+		 Response Data
+   
+         {
+		 "pagetitle":"amazon"
+		 }
+
+
+Get Page Source
+===================
+
+It returns the pagesource of page opened.
+
+.. tabs::
+
+   .. code-tab:: py
+
+         response=dk_object.get_page_source()
+
+   .. code-tab:: javascript
+		 NodeJS
+   
+         response=datakund.get_page_source()
+	
+   .. code-tab:: bash
+		 Curl
+
+         curl -X POST http://127.0.0.1:5000/get_page_source -H 'cache-control: no-cache' -H 'content-type: application/json' -d '{}'
+	
+   .. code-tab:: json
+		 Response Data
+   
+         {
+		 "pagesource":"<html><body>....."
+		 }
+
+Get Current Url
+===================
+
+It returns the url of page opened.
+
+.. tabs::
+
+   .. code-tab:: py
+
+         response=dk_object.get_current_url()
+
+   .. code-tab:: javascript
+		 NodeJS
+   
+         response=datakund.get_current_url()
+	
+   .. code-tab:: bash
+		 Curl
+
+         curl -X POST http://127.0.0.1:5000/get_current_url -H 'cache-control: no-cache' -H 'content-type: application/json' -d '{}'
+	
+   .. code-tab:: json
+		 Response Data
+   
+         {
+		 "url":"https://www.amazon.com"
+		 }
+
+
+Reload
+===================
+
+It reloads the page opened.
+
+.. tabs::
+
+   .. code-tab:: py
+
+         dk_object.reload()
+
+   .. code-tab:: javascript
+		 NodeJS
+   
+         datakund.reload()
+	
+   .. code-tab:: bash
+		 Curl
+
+         curl -X POST http://127.0.0.1:5000/reload -H 'cache-control: no-cache' -H 'content-type: application/json' -d '{}'
+	
+Keypress
+===================
+
+It perform the keypress passed.
+
+.. tabs::
+
+   .. code-tab:: py
+
+         dk_object.keypress("shoes")
+
+   .. code-tab:: javascript
+		 NodeJS
+   
+         datakund.keypress("shoes")
+	
+   .. code-tab:: bash
+		 Curl
+
+         curl -X POST http://127.0.0.1:5000/keypress -H 'cache-control: no-cache' -H 'content-type: application/json' -d '{"key":"shoes"}'
+
+Scroll
+===================
+
+It scrolls to the end of page.
+
+.. tabs::
+
+   .. code-tab:: py
+
+         dk_object.scroll()
+
+   .. code-tab:: javascript
+		 NodeJS
+   
+         datakund.scroll()
+	
+   .. code-tab:: bash
+		 Curl
+
+         curl -X POST http://127.0.0.1:5000/scroll -H 'cache-control: no-cache' -H 'content-type: application/json' -d '{}'
+		 
+End
+===================
+
+It ends the session and close the automated chromedriver.
+
+.. note:: You will need to create dk object again after ``end()``.
+
+.. tabs::
+
+   .. code-tab:: py
+
+         dk_object.end()
+
+   .. code-tab:: javascript
+		 NodeJS
+   
+         datakund.end()
+	
+   .. code-tab:: bash
+		 Curl
+
+         curl -X POST http://127.0.0.1:5000/end -H 'cache-control: no-cache' -H 'content-type: application/json' -d '{}'
+		 
+		 
+Quit
+===================
+
+It quits the datakund application runing in background.
+
+.. note:: You will need to import datakund library again to start datakund application.
+
+
+.. tabs::
+
+   .. code-tab:: py
+
+         dk_object.quit()
+
+   .. code-tab:: javascript
+		 NodeJS
+   
+         datakund.quit()
+	
+   .. code-tab:: bash
+		 Curl
+
+         curl -X POST http://127.0.0.1:5000/quit -H 'cache-control: no-cache' -H 'content-type: application/json' -d '{}'
+		 

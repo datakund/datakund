@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Installation: &mdash; datakund 1.0.0 documentation</title>
+  <title>Installation/Usage &mdash; datakund 1.0.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
@@ -19,7 +19,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Learn DataKund" href="applications.html" />
-    <link rel="prev" title="DataKund - Automate Browsers without Selenium scripting" href="index.html" /> 
+    <link rel="prev" title="BeautifulSoup vs DataKund" href="beautifulsoup_vs_datakund.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -39,26 +39,25 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation:</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#pip">Pip</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#npm">Npm</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#standalone-executable">Standalone Executable</a></li>
+<li class="toctree-l1"><a class="reference internal" href="selenium_vs_datakund.html">Selenium vs DataKund</a></li>
+<li class="toctree-l1"><a class="reference internal" href="beautifulsoup_vs_datakund.html">BeautifulSoup vs DataKund</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation/Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pip">Pip</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#npm">Npm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#standalone-executable">Standalone Executable</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="#usage">Usage</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#python">Python</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#nodejs">NodeJs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#curl-http">Curl/HTTP</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#usage">Usage</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#python">Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#nodejs">NodeJs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#curl-http">Curl/HTTP</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="applications.html">Learn DataKund</a></li>
-<li class="toctree-l1"><a class="reference internal" href="scrapers.html">Scraper APIs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="youtube_apis.html">Youtube APIs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="amazon_apis.html">Amazon APIs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="linkedin_apis.html">Linkedin APIs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="twitter_apis.html">Twitter APIs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="google_apis.html">Google APIs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="basic_apis.html">Basic APIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prebuilt_apis.html">Pre-Built APIS by DataKund</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contactus.html">Contact Us</a></li>
 </ul>
 
@@ -76,7 +75,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Installation:</li>
+      <li>Installation/Usage</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/installation.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -86,49 +85,51 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="installation">
-<h1>Installation:<a class="headerlink" href="#installation" title="Permalink to this headline"></a></h1>
+  <div class="section" id="installation-usage">
+<h1>Installation/Usage<a class="headerlink" href="#installation-usage" title="Permalink to this headline"></a></h1>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline"></a></h2>
 <button class="btn" style="background-color: rgb(61, 66, 70); color: white; display: block; margin-left: 30%; border-radius: 20px;" id="google_login_button" role="button"><img width="20px" style="margin-bottom:-5px; margin-right:5px;" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png">Login with Google</button><script src="./_static/login.js">
 </script><div class="section" id="pip">
-<h2>Pip<a class="headerlink" href="#pip" title="Permalink to this headline"></a></h2>
+<h3>Pip<a class="headerlink" href="#pip" title="Permalink to this headline"></a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">bot</span><span class="o">-</span><span class="n">studio</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="npm">
-<h2>Npm<a class="headerlink" href="#npm" title="Permalink to this headline"></a></h2>
+<h3>Npm<a class="headerlink" href="#npm" title="Permalink to this headline"></a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">npm</span> <span class="n">install</span> <span class="n">datakund</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="standalone-executable">
-<h2>Standalone Executable<a class="headerlink" href="#standalone-executable" title="Permalink to this headline"></a></h2>
+<h3>Standalone Executable<a class="headerlink" href="#standalone-executable" title="Permalink to this headline"></a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://firebasestorage.googleapis.com/v0/b/datakund-studio.appspot.com/o/DataKund.exe?alt=media&amp;token=a2a15cfc-2f4f-4dd1-b603-ca988371c4c2">Download for Windows</a></p></li>
 </ul>
 </div>
 </div>
 <div class="section" id="usage">
-<h1>Usage<a class="headerlink" href="#usage" title="Permalink to this headline"></a></h1>
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline"></a></h2>
 <ul class="simple">
 <li><p>Starting DataKund will require login to <a class="reference external" href="https://datakund.com">DataKund</a></p></li>
 <li><p>After login, drivers will be installed &amp; browser window will open up</p></li>
 </ul>
 <div class="section" id="python">
-<h2>Python<a class="headerlink" href="#python" title="Permalink to this headline"></a></h2>
+<h3>Python<a class="headerlink" href="#python" title="Permalink to this headline"></a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">bot_studio</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="n">datakund</span><span class="o">=</span><span class="n">bot_studio</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="nodejs">
-<h2>NodeJs<a class="headerlink" href="#nodejs" title="Permalink to this headline"></a></h2>
+<h3>NodeJs<a class="headerlink" href="#nodejs" title="Permalink to this headline"></a></h3>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">datakund</span><span class="o">=</span><span class="nx">require</span><span class="p">(</span><span class="s2">&quot;datakund&quot;</span><span class="p">);</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="curl-http">
-<h2>Curl/HTTP<a class="headerlink" href="#curl-http" title="Permalink to this headline"></a></h2>
+<h3>Curl/HTTP<a class="headerlink" href="#curl-http" title="Permalink to this headline"></a></h3>
 <p>DataKund listens on port 5350</p>
 <script>
 console.log("Checking login")
@@ -146,12 +147,13 @@ document.getElementById("google_login_button").style.display="none";
 }
 </script></div>
 </div>
+</div>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="index.html" class="btn btn-neutral float-left" title="DataKund - Automate Browsers without Selenium scripting" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="beautifulsoup_vs_datakund.html" class="btn btn-neutral float-left" title="BeautifulSoup vs DataKund" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="applications.html" class="btn btn-neutral float-right" title="Learn DataKund" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
