@@ -12,14 +12,14 @@ Scrape Text
 
 .. raw:: html
 	
-	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Beautifulsoup</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Scrape product title</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><em>title=soup.find("h4",{"id":"title"}).getText()</em></span></td><td style="width: 199px; padding: 10px;"><span>Right Click on title>DataKund>Scrape>Text>column name</span></td></tr></tbody></table><br>
+	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Beautifulsoup</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Scrape product title</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><code style="white-space: pre-line">title=soup.find("h4",{"id":"title"}).getText()</code></span></td><td style="width: 199px; padding: 10px;"><span>Right Click on title>DataKund>Scrape>Text>column name</span></td></tr></tbody></table><br>
 	
 Scrape Link
 ##########
 
 .. raw:: html
 	
-	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Beautifulsoup</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Scrape product link</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><em>link=soup.find("a",{"id":"product_link"})["href"]</em></span></td><td style="width: 199px; padding: 10px;"><span>Right Click on product link>DataKund>Scrape>Link>column name</span></td></tr></tbody></table><br>
+	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Beautifulsoup</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Scrape product link</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><code style="white-space: pre-line">link=soup.find("a",{"id":"product_link"})["href"]</code></span></td><td style="width: 199px; padding: 10px;"><span>Right Click on product link>DataKund>Scrape>Link>column name</span></td></tr></tbody></table><br>
 	
 Looping
 ##########

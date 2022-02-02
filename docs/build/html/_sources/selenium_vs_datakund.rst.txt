@@ -13,35 +13,35 @@ Open Link
 
 .. raw:: html
 	
-	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Selenium</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Open Link</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><em>driver.get("https://www.datakund.com")</em></span></td><td style="width: 199px; padding: 10px;"><span>Start recorder and open link</span></td></tr></tbody></table><br>
+	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Selenium</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Open Link</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><code style="white-space: pre-line">driver.get("https://www.datakund.com")</code></span></td><td style="width: 199px; padding: 10px;"><span>Start recorder and open link</span></td></tr></tbody></table><br>
 
 Click
 ##########
 
 .. raw:: html
 	
-	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Selenium</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Open Link</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><em>element=driver.find_element_by_id("login") element.click()</em></span></td><td style="width: 199px; padding: 10px;"><span>Start recorder and click on button(wherever you want)</span></td></tr></tbody></table><br>
+	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Selenium</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Open Link</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><code style="white-space: pre-line">element=driver.find_element_by_id("login") element.click()</code></span></td><td style="width: 199px; padding: 10px;"><span>Start recorder and click on button(wherever you want)</span></td></tr></tbody></table><br>
 
 Type or Send keys
 ##########
 
 .. raw:: html
 	
-	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Selenium</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Type text in input</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><em>element=driver.find_element_by_id("email") element.send_keys("datakund@datakund.in")</em></span></td><td style="width: 199px; padding: 10px;"><span>Start recorder and click on input and type</span></td></tr></tbody></table><br>
+	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Selenium</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Type text in input</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><code style="white-space: pre-line">element=driver.find_element_by_id("email") element.send_keys("datakund@datakund.in")</code></span></td><td style="width: 199px; padding: 10px;"><span>Start recorder and click on input and type</span></td></tr></tbody></table><br>
 	
 New tab
 ##########
 
 .. raw:: html
 	
-	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Selenium</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Open New Tab</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><em>driver.execute_script("window.open('https://www.datakund.com');")</em></span></td><td style="width: 199px; padding: 10px;"><span>Just start recording and open new tab</span></td></tr></tbody></table><br>
+	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Selenium</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Open New Tab</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><code style="white-space: pre-line">driver.execute_script("window.open('https://www.datakund.com');")</code></span></td><td style="width: 199px; padding: 10px;"><span>Just start recording and open new tab</span></td></tr></tbody></table><br>
 	
 Switch tab
 ##########
 
 .. raw:: html
 	
-	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Selenium</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Switch to tab</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><em>WindowsHandles = driver.window_handles window =WindowsHandles[-1] driver.switch_to_window(window)</em></span></td><td style="width: 199px; padding: 10px;"><span>Just switch to tab after starting recording</span></td></tr></tbody></table><br>
+	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Selenium</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Switch to tab</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><code style="white-space: pre-line">WindowsHandles=driver.window_handles window =WindowsHandles[-1] driver.switch_to_window(window)</code></span></td><td style="width: 199px; padding: 10px;"><span>Just switch to tab after starting recording</span></td></tr></tbody></table><br>
 	
 Re-Captchas
 ##########
@@ -76,7 +76,7 @@ Iframe
 
 .. raw:: html
 	
-	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Selenium</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Click on button</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><em>iframe_element=driver.find_element_by_xpath("html/div/iframe") driver.switch_to_iframe(iframe_element) button=driver.find_element_by_id("log_in") button.click</em></span></td><td style="width: 199px; padding: 10px;"><span>Just click on button</span></td></tr></tbody></table><br>
+	<table style="padding: 10px;" border="2" width="100%" cellspacing="1" cellpadding="5"><tbody><tr><td style="width: 198px; padding: 10px;"><span><strong>Action</strong></span></td><td style="width: 199px; padding: 10px;"><span><strong>Selenium</strong></span></td><td style="width: 185px; padding: 10px;"><span><strong>DataKund</strong></span></td></tr><tr><td style="width: 198px; padding: 10px;"><span>Click on button</span></td><td style="width: 199px; padding: 10px;"><span style="white-space: pre-line"><code style="white-space: pre-line">iframe_element=driver.find_element_by_xpath("html/div/iframe") driver.switch_to_iframe(iframe_element) button=driver.find_element_by_id("log_in") button.click</code></span></td><td style="width: 199px; padding: 10px;"><span>Just click on button</span></td></tr></tbody></table><br>
 	
 	
 Flow Chart
